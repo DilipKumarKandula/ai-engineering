@@ -1,116 +1,238 @@
-# AI Engineering
+# AI Engineering Roadmap
 
-My journey to learn AI Engineering from first principles.
+A structured repository documenting core AI Engineering concepts, agent architectures, retrieval systems, prompt engineering, evaluation methodologies, and production AI system design.
 
-## Progress
+---
 
-- [x] AI Fundamentals
-- [x] LLM Foundations
-- [x] Training & Weights
-- [x] Embeddings
-- [x] Vector Databases
-- [x] RAG (Retrieval Augmented Generation)
-- [x] AI Systems
-- [x] Memory
+## Completed Modules
 
-## Current Progress
+### [01. AI Fundamentals](./01-ai-fundamentals/fundamentals.md)
 
-35% Complete
+Topics:
 
-## Learning Roadmap
+- Artificial Intelligence
+- Machine Learning
+- Deep Learning
+- Generative AI
+- AI Ecosystem Overview
 
-### 01. AI Fundamentals
+---
 
-- What is AI?
-- AI vs Traditional Software
-- Types of AI
-- Prediction Concept
+### [02. LLM Foundations](./02-llm-foundations/llm-foundations.md)
 
-### 02. LLM Foundations
+Topics:
 
-- What is a Model?
-- What is an LLM?
-- What is ChatGPT?
+- Large Language Models
 - Tokens
-- Next Token Prediction
+- Context Windows
+- Inference
+- Transformer Concepts
 
-### 03. Training and Weights
+---
 
-- Training Process
-- Pattern Learning
+### [03. Training & Weights](./03-training-and-weights/training-and-weights.md)
+
+Topics:
+
+- Model Training
+- Parameters
 - Weights
-- Human Brain Analogy
+- Pretraining
+- Fine-Tuning Fundamentals
 
-### 04. Embeddings
+---
 
-- Meaning as Numbers
+### [04. Embeddings](./04-embeddings/embeddings.md)
+
+Topics:
+
+- Embeddings
 - Semantic Similarity
-- Vector Representation
-- Embeddings vs Weights
+- Vector Representations
+- Embedding Models
 
-### 05. Vector Databases
+---
 
+### [05. Vector Databases](05-vector-databases/vector-databases.md)
+
+Topics:
+
+- Vector Storage
+- Similarity Search
 - Semantic Search
-- Vector Search
-- Traditional Database vs Vector Database
+- Traditional DB vs Vector DB
 
-### 06. RAG
+---
 
-- What is RAG?
-- Indexing
-- Retrieval
+### [06. Retrieval Augmented Generation (RAG)](06-rag/rag.md)
+
+Topics:
+
+- RAG Architecture
+- Retrieval Flow
 - Context Injection
-- Resume Agent Example
+- Chunking
+- Retrieval Pipelines
 
-### 07. AI Systems
+---
 
-- LLM
-- AI Application
-- RAG Application
-- AI Agent
+### [07. AI Systems](07-ai-systems/ai-systems.md)
 
-### 08. Memory
+Topics:
+
+- AI Application Architecture
+- LLM Integration
+- Memory
+- Retrieval
+- Tools
+
+---
+
+### [08. Memory](08-memory/memory.md)
+
+Topics:
 
 - Short-Term Memory
 - Long-Term Memory
-- Memory vs RAG
-- Personalized AI
+- Conversation History
+- User Context
 
-## Upcoming Topics
+---
 
-- Tool Calling
+### [09. Tool Calling](09-tool-calling/tool-calling.md)
+
+Topics:
+
 - Function Calling
-- Agents
-- Multi-Agent Systems
-- MCP
-- Prompt Engineering
-- AI Evaluation
-- Production AI
+- Tool Selection
+- Tool Execution
+- Tool Responses
+
+---
+
+### [10. Agent Workflows](10-agent-workflows/agent-workflows.md)
+
+Topics:
+
+- Planning
+- Reasoning
+- Action Loops
+- Goal Completion
+
+---
+
+### [11. Multi-Agent Systems](11-multi-agent-systems/multi-agent-systems.md)
+
+Topics:
+
+- Agent Collaboration
+- Specialized Agents
+- Agent Communication
+- Task Delegation
+
+---
+
+### [12. Model Context Protocol (MCP)](12-mcp/mcp.md)
+
+Topics:
+
+- MCP Architecture
+- Host
+- Client
+- Server
+- Tool Discovery
+- Resources
+
+---
+
+### [13. Prompt Engineering](13-prompt-engineering/prompt-engineering.md)
+
+Topics:
+
+- System Prompts
+- Few-Shot Prompting
+- Structured Outputs
+- Chain of Thought
+- Prompt Templates
+- Agent Prompts
+- Tool Instructions
+- Best Practices
+
+---
+
+### [14. AI Evaluation](14-ai-evaluation/ai-evaluation.md)
+
+Topics:
+
+- Hallucinations
+- Test Sets
+- Metrics
+- Error Analysis
+- A/B Testing
+- RAG Evaluation
+- Agent Evaluation
+- Human Evaluation
+- Evaluation Pipelines
+- Production Monitoring
+
+---
+
+### [15. Production AI Systems](15-production-ai-systems/production-ai-systems.md)
+
+Topics:
+
+- Latency
+- Caching
+- Rate Limits
+- Guardrails
+- Observability
+- Logging
+- Tracing
+- Cost Optimization
+
+---
+
+## Upcoming Modules
+
+Building Real AI Agents
+
+**Planned Topics**
+
+- Agent Architectures
+- LangGraph
+- CrewAI
+- OpenAI Agents SDK
+- State Management
+- Workflow Design
+
+---
+
+### 17. Automation Systems
+
+**Planned Topics**
+
+- Resume Agents
+- Email Agents
+- Lead Generation
+- LinkedIn Automation
+- Document Processing
+- Workflow Automation
+
+---
+
+### 18. Fine-Tuning & Open Models
+
+**Planned Topics**
+
 - Fine-Tuning
-- AI Projects
+- LoRA
+- Open Source Models
+- Local Models
+- Model Serving
+- Inference
 
-## Core AI Architecture
+---
 
-User Question
-↓
-Embedding
-↓
-Vector Search
-↓
-Relevant Context
-↓
-LLM
-↓
-Answer
+## Repository Goal
 
-## Agent Architecture
-
-User
-↓
-Agent
-├── Memory
-├── Tools
-├── RAG
-└── LLM
-↓
-Response
+This repository serves as a structured reference for understanding how modern AI systems are designed, evaluated, deployed, and scaled—from foundational concepts to production-ready agent architectures.

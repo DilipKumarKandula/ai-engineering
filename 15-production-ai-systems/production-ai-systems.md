@@ -420,15 +420,11 @@ Guardrails are safety mechanisms that prevent undesirable behavior.
 Think:
 
 ```text
-Prompt
-=
-Instructions
+Prompt = Instructions
 ```
 
 ```text
-Guardrails
-=
-Safety Rules
+Guardrails = Safety Rules
 ```
 
 ---
@@ -838,33 +834,23 @@ How Long Users Wait
 ```
 
 ```text
-Caching
-=
-Reuse Previous Work
+Caching = Reuse Previous Work
 ```
 
 ```text
-Rate Limits
-=
-Protection Against Overuse
+Rate Limits = Protection Against Overuse
 ```
 
 ```text
-Guardrails
-=
-Safety Rules
+Guardrails = Safety Rules
 ```
 
 ```text
-Observability
-=
-Understand System Behavior
+Observability = Understand System Behavior
 ```
 
 ```text
-Cost Optimization
-=
-Reduce Waste
+Cost Optimization = Reduce Waste
 ```
 
 ---
